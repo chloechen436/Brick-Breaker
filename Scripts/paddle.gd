@@ -5,16 +5,17 @@ class_name Paddle
 var direction = Vector2.ZERO
 var camera_rect: Rect2
 var half_paddle_width: float
+var is_ball_started = false
 
 @export var speed = 200
 @export var camera: Camera2D
 
+@onready var ball = $"../Ball" as Ball
 @onready var collision_shape_2d = $CollisionShape2D
 
 func _ready():
 	camera_rect = camera.get_viewport_rect()
-	#have to add .shape below bc it can't get the rect without it
-	#you were missing .shape below and now it works
+
 	half_paddle_width = collision_shape_2d.shape.get_rect().size.x / 2 * scale.x
 
 func _physics_process(delta):
@@ -36,3 +37,8 @@ func _input(event):
 		direction = Vector2.RIGHT
 	else:
 		direction = Vector2.ZERO
+		
+	if direction != Vector2.ZERO && !is_ball_started:
+		ball.start_ball()
+		is_ball_started = true
+		
