@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< HEAD
 ::res://::1698630212
 README.md::TextFile::-1::1698357427::0::1::::<><>::
 ::res://Assets/::1698357427
@@ -18,3 +19,24 @@ main.tscn::PackedScene::4049246619811383691::1698359625::0::1::::<><>::uid://46b
 paddle.tscn::PackedScene::2099566178158333286::1698359626::0::1::::<><>::res://Scripts/paddle.gd<>uid://bsg582qn67lhr::::res://Assets/Paddle.png
 ::res://Scripts/::1698359624
 paddle.gd::GDScript::-1::1698359624::0::1::::Paddle<>RigidBody2D<>::
+=======
+::res://::1698604791
+README.md::TextFile::-1::1698467718::0::1::::<><>::
+::res://Assets/::1698467718
+Ball.png::CompressedTexture2D::7571840704541303999::1698467718::1698467718::1::::<><>::
+Brick-Blue.png::CompressedTexture2D::7837394538134189041::1698467718::1698467718::1::::<><>::
+Brick-Gray.png::CompressedTexture2D::181881317273153721::1698467718::1698467718::1::::<><>::
+Brick-Green.png::CompressedTexture2D::6874401220476266175::1698467718::1698467718::1::::<><>::
+Brick-Orange.png::CompressedTexture2D::1339216436757196950::1698467718::1698467718::1::::<><>::
+Brick-Red.png::CompressedTexture2D::5581592315158450837::1698467718::1698467718::1::::<><>::
+Brick-Yellow.png::CompressedTexture2D::7459960206817603146::1698467718::1698467718::1::::<><>::
+icon.svg::CompressedTexture2D::2297025507484425674::1698467718::1698467718::1::::<><>::
+Paddle.png::CompressedTexture2D::3664088020164580283::1698467718::1698467718::1::::<><>::
+::res://Scenes/::1698488471
+ball.tscn::PackedScene::939090472306488491::1698488471::0::1::::<><>::res://Scripts/ball.gd<>uid://df44d0ldon5od::::res://Assets/Ball.png
+main.tscn::PackedScene::4049246619811383691::1698488433::0::1::::<><>::uid://46bsvyuqs1di::::res://Scenes/paddle.tscn<>uid://nm5xhn0385pn::::res://Scenes/ball.tscn
+paddle.tscn::PackedScene::2099566178158333286::1698488433::0::1::::<><>::res://Scripts/paddle.gd<>uid://bsg582qn67lhr::::res://Assets/Paddle.png
+::res://Scripts/::1698488336
+ball.gd::GDScript::-1::1698469500::0::1::::Ball<>CharacterBody2D<>::
+paddle.gd::GDScript::-1::1698469500::0::1::::Paddle<>RigidBody2D<>::
+>>>>>>> 835bbe7b1c74a92cd21eb6c7ce7c5137c5079082
