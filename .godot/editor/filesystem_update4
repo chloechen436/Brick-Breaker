@@ -5,4 +5,5 @@ res://wall.tscn
 res://death_zone.tscn
 res://ui.tscn
 res://Scenes/brick.tscn
-res://Scripts/brick_spawner.gd
+res://Scripts/ball.gd
+res://Scripts/paddle.gd
