@@ -44,6 +44,7 @@ func _input(event):
 		is_ball_started = true
 
 func on_ball_lost():
+	$"../BallPassingPaddle".play()
 	is_ball_started = false
 	direction = Vector2.ZERO
 

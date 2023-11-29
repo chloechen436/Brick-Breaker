@@ -9,7 +9,12 @@ class_name UI
 func set_lifes(lifes: int):
 	lifes_label.text = "Lifes: %d" % lifes
 
+func new_game():
+	$"../Music".play()
+
 func game_over():
+	$"../Music".stop()
+	$"../DeathSound".play()
 	game_lost_container.show()
 	
 func _on_game_lost_button_pressed():
