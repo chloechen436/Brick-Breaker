@@ -12,6 +12,8 @@ const ROWS = 6
 @export var margin: Vector2 = Vector2(8,8)
 @export var spawn_start: Marker2D
 
+@onready var game_won = $"../GameWon"
+
 var brick_count = 0
 
 # Called when the node enters the scene tree for the first time.
@@ -73,3 +75,4 @@ func on_brick_destroyed():
 	if brick_count == 0:
 		ball.reset_ball()
 		ui.on_level_won()
+		game_won.play()
