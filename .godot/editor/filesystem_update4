@@ -5,9 +5,3 @@ res://wall.tscn
 res://death_zone.tscn
 res://ui.tscn
 res://Scenes/brick.tscn
-<<<<<<< HEAD
-=======
-res://Scripts/ui.gd
-res://Scripts/ball.gd
-res://Scripts/paddle.gd
->>>>>>> 187a17ef236ebf678d440f9cd3fb8b1ac6293eff
