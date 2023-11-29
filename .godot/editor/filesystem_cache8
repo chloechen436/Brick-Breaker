@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 ::res://::1701290944
 =======
@@ -39,6 +40,14 @@ death_zone.tscn::PackedScene::6600894809767499262::1701290792::0::1::::<><>::res
 README.md::TextFile::-1::1698870529::0::1::::<><>::
 ui.tscn::PackedScene::5531098181738154930::1701290792::0::1::::<><>::res://Scripts/ui.gd
 wall.tscn::PackedScene::3444516917539092208::1701290792::0::1::::<><>::
+=======
+::res://::1699477029
+death_zone.gd::GDScript::-1::1698870529::0::1::::DeathZone<>Area2D<>::
+death_zone.tscn::PackedScene::6600894809767499262::1698964388::0::1::::<><>::res://death_zone.gd
+README.md::TextFile::-1::1698870529::0::1::::<><>::
+ui.tscn::PackedScene::5531098181738154930::1698964388::0::1::::<><>::res://Scripts/ui.gd
+wall.tscn::PackedScene::3444516917539092208::1698964388::0::1::::<><>::
+>>>>>>> Stashed changes
 ::res://Assets/::1698870529
 Ball.png::CompressedTexture2D::7571840704541303999::1698870529::1698870529::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::7837394538134189041::1698870529::1698870529::1::::<><>::
@@ -49,6 +58,7 @@ Brick-Red.png::CompressedTexture2D::5581592315158450837::1698870529::1698870529:
 Brick-Yellow.png::CompressedTexture2D::7459960206817603146::1698870529::1698870529::1::::<><>::
 icon.svg::CompressedTexture2D::2297025507484425674::1698870529::1698870529::1::::<><>::
 Paddle.png::CompressedTexture2D::3664088020164580283::1698870529::1698870529::1::::<><>::
+<<<<<<< Updated upstream
 ::res://Audio/::1701290944
 BackgroundMusic.mp3::AudioStreamMP3::4631779681391428238::1700080538::1700080672::1::::<><>::
 BallCollidingPaddle.wav::AudioStreamWAV::7029402809717659078::1701214254::1701214341::1::::<><>::
@@ -75,3 +85,16 @@ paddle.gd::GDScript::-1::1699573389::0::1::::Paddle<>RigidBody2D<>::
 ui.gd::GDScript::-1::1700082134::0::1::::UI<>CanvasLayer<>::
 >>>>>>> 187a17ef236ebf678d440f9cd3fb8b1ac6293eff
 >>>>>>> 1899a9eb9062c0156ae291d432c0451e973dfb61
+=======
+::res://Scenes/::1698964388
+ball.tscn::PackedScene::939090472306488491::1698964388::0::1::::<><>::res://Scripts/ball.gd<>uid://df44d0ldon5od::::res://Assets/Ball.png
+brick.tscn::PackedScene::1590868424900938443::1698964388::0::1::::<><>::res://Scripts/brick.gd<>uid://djwq0i5ketlx6::::res://Assets/Brick-Blue.png
+main.tscn::PackedScene::4049246619811383691::1698964388::0::1::::<><>::uid://ck2km5cic6dpq::::res://ui.tscn<>uid://46bsvyuqs1di::::res://Scenes/paddle.tscn<>uid://nm5xhn0385pn::::res://Scenes/ball.tscn<>uid://bpcsxqc037elk::::res://wall.tscn<>uid://c1br1jyqfsvva::::res://death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://wwvmuljxlpv4::::res://Scenes/brick.tscn
+paddle.tscn::PackedScene::2099566178158333286::1698964388::0::1::::<><>::res://Scripts/paddle.gd<>uid://bsg582qn67lhr::::res://Assets/Paddle.png
+::res://Scripts/::1698963686
+ball.gd::GDScript::-1::1698961212::0::1::::Ball<>CharacterBody2D<>::
+brick.gd::GDScript::-1::1698961212::0::1::::Brick<>RigidBody2D<>::
+brick_spawner.gd::GDScript::-1::1698963686::0::1::::BrickSpawner<>Node<>::
+paddle.gd::GDScript::-1::1698961212::0::1::::Paddle<>RigidBody2D<>::
+ui.gd::GDScript::-1::1698870529::0::1::::UI<>CanvasLayer<>::
+>>>>>>> Stashed changes
