@@ -11,6 +11,10 @@ res://Scenes/brick.tscn
 res://Scripts/brick_spawner.gd
 =======
 res://Scripts/paddle.gd
+<<<<<<< HEAD
 >>>>>>> 1899a9eb9062c0156ae291d432c0451e973dfb61
 =======
 >>>>>>> Stashed changes
+=======
+res://Scripts/ball.gd
+>>>>>>> 63355b6aff33249e496abdf425ba0a8a7b8cd286
