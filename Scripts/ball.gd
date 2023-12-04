@@ -15,8 +15,7 @@ var speed_up_factor = 1.05
 var start_position: Vector2
 var last_collider_id
 @onready var collision_shape_2d = $CollisionShape2D
-
-@onready var ball_hitting_wall_explosion = $BallHittingWallExplosion
+@onready var ball_hitting_wall_explosion = $"../BallHittingWallExplosion"
 
 # audio var
 @onready var ball_hitting_paddle_n = $"../BallHittingPaddleN"
@@ -45,9 +44,9 @@ func _physics_process(delta):
 		
 	else:
 		velocity = velocity.bounce(collision.get_normal())
-		ball_hitting_wall_explosion.emitting = true
 		ball_hitting_wall.play()
-
+		ball_hitting_wall_explosion.emitting = true
+		#you probably should make the particle a scene and instantiate it into into the ball scene since you call it to emit from the ball script
 
 func start_ball():
 	position = start_position
