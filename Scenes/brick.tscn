@@ -23,4 +23,4 @@ shape = SubResource("RectangleShape2D_r5eem")
 
 [node name="ExplosionParticle" parent="." instance=ExtResource("3_gnypv")]
 visible = false
-scale = Vector2(10, 10)
+scale = Vector2(20, 20)

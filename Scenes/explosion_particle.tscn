@@ -1,15 +1,33 @@
-[gd_scene load_steps=2 format=3 uid="uid://beocug6v3eeqp"]
+[gd_scene load_steps=4 format=3 uid="uid://beocug6v3eeqp"]
+
+[sub_resource type="Curve" id="Curve_d3ida"]
+min_value = -360.0
+max_value = 360.0
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.324719, 360), 0.0, 0.0, 0, 0, Vector2(0.753856, -30.4929), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="CurveTexture" id="CurveTexture_kpfmt"]
+curve = SubResource("Curve_d3ida")
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_qn0dr"]
 emission_shape = 1
-emission_sphere_radius = 1.0
+emission_sphere_radius = 5.0
 particle_flag_disable_z = true
-gravity = Vector3(0, 98, 0)
-orbit_velocity_min = 0.0
-orbit_velocity_max = 0.0
+spread = 5.0
+gravity = Vector3(2, 20, 2)
+initial_velocity_min = 40.0
+initial_velocity_max = 40.0
+angular_velocity_min = 20.0
+angular_velocity_max = 75.79
+angular_velocity_curve = SubResource("CurveTexture_kpfmt")
+orbit_velocity_min = 5.0
+orbit_velocity_max = 5.0
+scale_min = 15.0
+scale_max = 15.0
 
 [node name="ExplosionParticle" type="Node2D"]
 
 [node name="ExplosionParticle" type="GPUParticles2D" parent="."]
 scale = Vector2(10, 10)
+amount = 50
 process_material = SubResource("ParticleProcessMaterial_qn0dr")
