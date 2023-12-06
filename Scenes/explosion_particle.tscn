@@ -11,4 +11,5 @@ orbit_velocity_max = 0.0
 [node name="ExplosionParticle" type="Node2D"]
 
 [node name="ExplosionParticle" type="GPUParticles2D" parent="."]
+scale = Vector2(10, 10)
 process_material = SubResource("ParticleProcessMaterial_qn0dr")
